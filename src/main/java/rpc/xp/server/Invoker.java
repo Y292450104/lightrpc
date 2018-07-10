@@ -11,7 +11,6 @@ public class Invoker {
 		for(Class<?> interfaceTmp:interfaces){
 			services.put(interfaceTmp.getName(), value);
 		}
-		
 	}
 
 	public static Object getService(String key) {

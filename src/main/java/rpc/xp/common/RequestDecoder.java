@@ -10,7 +10,6 @@ public class RequestDecoder extends ByteToMessageDecoder {
 
 	@Override
 	protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
-
 		if (in.readableBytes() < 4) {
 			return;
 		}

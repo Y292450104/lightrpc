@@ -11,7 +11,6 @@ public class RequestEncoder extends MessageToByteEncoder<RpcRequest> {
 		byte[] serializeToByte = SerializationUtil.serializeToByte(msg);
 		out.writeInt(serializeToByte.length);
 		out.writeBytes(serializeToByte);
-
 	}
 
 }
