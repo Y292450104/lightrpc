@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nettyTest.iml" filepath="$PROJECT_DIR$/nettyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lightrpc.iml" filepath="$PROJECT_DIR$/lightrpc.iml" />
     </modules>
   </component>
 </project>
